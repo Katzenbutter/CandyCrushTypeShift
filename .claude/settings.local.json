@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/UNITY-PIPELINE/CandyCrush -maxdepth 3 -name *.md -o -name CLAUDE.md -o -name README*)",
+      "Bash(find /c/UNITY-PIPELINE/CandyCrush -maxdepth 2 -name *.json -o -name ProjectSettings)",
+      "Bash(git ls-tree:*)",
+      "Bash(grep -E \"\\\\.\\(cs|meta\\)$\")"
+    ]
+  }
+}
